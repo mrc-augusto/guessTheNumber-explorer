@@ -81,10 +81,10 @@ form input{
   border-radius: 4px 0 0 4px;
 }
 
-form input::placeholder{
-  text-align: center;
-  color: var(--primary);
-}
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+} 
+
 
 /* screen-two */
 
@@ -93,6 +93,6 @@ form input::placeholder{
   border-radius: 4px;
 }
 
-.screen-two{
+.hide{
   display: none;
 }
